@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="oil_refinery.cpp" />
+    <ClCompile Include="AppSystemLogic.cpp" />
+    <ClCompile Include="AppWorldLogic.cpp" />
+    <ClCompile Include="Telemetry.cpp">
+      <Filter>Telemetry</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectUtils.cpp" />
+    <ClCompile Include="CameraCinematic.cpp" />
+    <ClCompile Include="LogicComponents/CameraAttachComponent.cpp" />
+    <ClCompile Include="LogicComponents/LogicObject.cpp" />
+    <ClCompile Include="LogicComponents/Accidents/Accident.cpp" />
+    <ClCompile Include="LogicComponents/Observers/Observer.cpp" />
+    <ClCompile Include="LogicComponents/Observers/Switches/MaterialSwitcher.cpp" />
+    <ClCompile Include="LogicComponents/Observers/Switches/NodeSwitcher.cpp" />
+    <ClCompile Include="LogicComponents/Observers/Animations/RotationAnimation.cpp" />
+    <ClCompile Include="LogicComponents/Observers/Animations/ScaleAnimation.cpp" />
+    <ClCompile Include="LogicComponents/Observers/Animations/CameraShake.cpp" />
+    <ClCompile Include="LogicComponents/Observers/Animations/LightProbeAnimation.cpp" />
+    <ClCompile Include="LogicComponents/Observers/Animations/DOFAnimation.cpp" />
+    <ClCompile Include="LogicComponents/Observers/Animations/FadeAnimation.cpp" />
+    <ClCompile Include="LogicComponents/Observers/Sounds/SoundSequence.cpp" />
+    <ClCompile Include="LogicComponents/Tasks/Task.cpp" />
+    <ClCompile Include="LogicComponents/Timers/Timer.cpp" />
+    <ClCompile Include="LogicComponents/Missions/Mission.cpp" />
+    <ClCompile Include="LogicComponents/Interactable/SwitchingLogic.cpp" />
+    <ClCompile Include="LogicComponents/Interactable/UsageLogic.cpp" />
+    <ClCompile Include="LogicComponents/Interactable/MoveLogic.cpp" />
+    <ClCompile Include="LogicComponents/Interactable/InspectionLogic.cpp" />
+    <ClCompile Include="LogicComponents/Interactable/InspectionManager.cpp" />
+    <ClCompile Include="LogicComponents/Interactable/PlayerPositionLogic.cpp" />
+    <ClCompile Include="LogicComponents/Interactable/SelectionLogic.cpp" />
+    <ClCompile Include="LogicComponents/Interactable/TransformationLogic.cpp" />
+    <ClCompile Include="LogicComponents/Interactable/GrabLogic.cpp" />
+    <ClCompile Include="Framework/SoundManager.cpp" />
+    <ClCompile Include="Framework/Triggers.cpp" />
+    <ClCompile Include="Framework/Utils.cpp" />
+    <ClCompile Include="Framework/Components/VRPlayerSpawner.cpp" />
+    <ClCompile Include="Framework/Components/Objects/ObjSwitch.cpp" />
+    <ClCompile Include="Framework/Components/Objects/ObjHandle.cpp" />
+    <ClCompile Include="Framework/Components/Objects/ObjMovable.cpp" />
+    <ClCompile Include="Framework/Components/Objects/ObjSelectable.cpp" />
+    <ClCompile Include="Framework/Components/Objects/ObjInspectable.cpp" />
+    <ClCompile Include="Framework/Components/Players/VRPlayerOculus.cpp" />
+    <ClCompile Include="Framework/Components/Players/VRPlayerPC.cpp" />
+    <ClCompile Include="Framework/Components/Players/VRPlayerVR.cpp" />
+    <ClCompile Include="Framework/Components/Players/VRPlayerOpenVR.cpp" />
+    <ClCompile Include="Framework/Components/Players/VRPlayer.cpp" />
+    <ClCompile Include="Demo/LogicController.cpp" />
+    <ClCompile Include="Demo/Tooltip.cpp" />
+    <ClCompile Include="Demo/DoorProbeAnimation.cpp" />
+    <ClCompile Include="Demo/TaskHelper.cpp" />
+    <ClCompile Include="Demo/Logic/InteractiveMode.cpp" />
+    <ClCompile Include="Demo/Logic/UdhLogic.cpp" />
+    <ClCompile Include="Demo/Logic/GeneratorLogic.cpp" />
+    <ClCompile Include="Demo/Logic/ChecklistTaskInfo.cpp" />
+    <ClCompile Include="Demo/Logic/ChecklistItem.cpp" />
+    <ClCompile Include="Demo/Logic/ObjEarthingLogic.cpp" />
+    <ClCompile Include="Demo/Inventory/InventoryItem.cpp" />
+    <ClCompile Include="Demo/Inventory/ChecklistInvertoryItem.cpp" />
+    <ClCompile Include="Demo/Inventory/Inventory.cpp" />
+    <ClCompile Include="Demo/Objects/ObjMouseMovable.cpp" />
+    <ClCompile Include="Demo/Objects/ObjEarthingIndicator.cpp" />
+    <ClCompile Include="Demo/Objects/InteractableHandle.cpp" />
+    <ClCompile Include="Demo/Objects/ObjGlove.cpp" />
+    <ClCompile Include="CreateTrajectory.cpp" />
+    <ClCompile Include="GetPixelCoordinate.cpp" />
+    <ClCompile Include="Orientation.cpp" />
+    <ClCompile Include="Projection.cpp" />
+    <ClCompile Include="Rotate.cpp" />
+    <ClCompile Include="ScreenshotMaker.cpp" />
+    <ClCompile Include="Structures.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppSystemLogic.h" />
+    <ClInclude Include="AppWorldLogic.h" />
+    <ClInclude Include="Mode.h" />
+    <ClInclude Include="Telemetry.h">
+      <Filter>Telemetry</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectUtils.h" />
+    <ClInclude Include="CameraCinematic.h" />
+    <ClInclude Include="LogicComponents/LogicObject.h" />
+    <ClInclude Include="LogicComponents/CameraAttachComponent.h" />
+    <ClInclude Include="LogicComponents/Accidents/Accident.h" />
+    <ClInclude Include="LogicComponents/Observers/Observer.h" />
+    <ClInclude Include="LogicComponents/Observers/Switches/NodeSwitcher.h" />
+    <ClInclude Include="LogicComponents/Observers/Switches/MaterialSwitcher.h" />
+    <ClInclude Include="LogicComponents/Observers/Animations/LightProbeAnimation.h" />
+    <ClInclude Include="LogicComponents/Observers/Animations/DOFAnimation.h" />
+    <ClInclude Include="LogicComponents/Observers/Animations/RotationAnimation.h" />
+    <ClInclude Include="LogicComponents/Observers/Animations/CameraShake.h" />
+    <ClInclude Include="LogicComponents/Observers/Animations/FadeAnimation.h" />
+    <ClInclude Include="LogicComponents/Observers/Animations/ScaleAnimation.h" />
+    <ClInclude Include="LogicComponents/Observers/Sounds/SoundSequence.h" />
+    <ClInclude Include="LogicComponents/Tasks/Task.h" />
+    <ClInclude Include="LogicComponents/Timers/Timer.h" />
+    <ClInclude Include="LogicComponents/Missions/Mission.h" />
+    <ClInclude Include="LogicComponents/Interactable/MoveLogic.h" />
+    <ClInclude Include="LogicComponents/Interactable/SwitchingLogic.h" />
+    <ClInclude Include="LogicComponents/Interactable/GrabLogic.h" />
+    <ClInclude Include="LogicComponents/Interactable/UsageLoigc.h" />
+    <ClInclude Include="LogicComponents/Interactable/InspectionManager.h" />
+    <ClInclude Include="LogicComponents/Interactable/PlayerPositionLogic.h" />
+    <ClInclude Include="LogicComponents/Interactable/InspectionLogic.h" />
+    <ClInclude Include="LogicComponents/Interactable/SelectionLogic.h" />
+    <ClInclude Include="LogicComponents/Interactable/TransformationLogic.h" />
+    <ClInclude Include="Framework/Triggers.h" />
+    <ClInclude Include="Framework/Utils.h" />
+    <ClInclude Include="Framework/SoundManager.h" />
+    <ClInclude Include="Framework/Components/VRPlayerSpawner.h" />
+    <ClInclude Include="Framework/Components/VRInteractable.h" />
+    <ClInclude Include="Framework/Components/Objects/ObjInspectable.h" />
+    <ClInclude Include="Framework/Components/Objects/ObjSelectable.h" />
+    <ClInclude Include="Framework/Components/Objects/ObjHandle.h" />
+    <ClInclude Include="Framework/Components/Objects/ObjMovable.h" />
+    <ClInclude Include="Framework/Components/Objects/ObjSwitch.h" />
+    <ClInclude Include="Framework/Components/Players/VRPlayerOculus.h" />
+    <ClInclude Include="Framework/Components/Players/VRPlayerPC.h" />
+    <ClInclude Include="Framework/Components/Players/VRPlayerOpenVR.h" />
+    <ClInclude Include="Framework/Components/Players/VRPlayer.h" />
+    <ClInclude Include="Framework/Components/Players/VRPlayerVR.h" />
+    <ClInclude Include="Demo/TaskHelper.h" />
+    <ClInclude Include="Demo/DoorProbeAnimation.h" />
+    <ClInclude Include="Demo/LogicController.h" />
+    <ClInclude Include="Demo/Tooltip.h" />
+    <ClInclude Include="Demo/Logic/UdhLogic.h" />
+    <ClInclude Include="Demo/Logic/GeneratorLogic.h" />
+    <ClInclude Include="Demo/Logic/ObjEarthingLogic.h" />
+    <ClInclude Include="Demo/Logic/ChecklistItem.h" />
+    <ClInclude Include="Demo/Logic/ChecklistTaskInfo.h" />
+    <ClInclude Include="Demo/Logic/InteractiveMode.h" />
+    <ClInclude Include="Demo/Inventory/InventoryItem.h" />
+    <ClInclude Include="Demo/Inventory/ChecklistInvertoryItem.h" />
+    <ClInclude Include="Demo/Inventory/Inventory.h" />
+    <ClInclude Include="Demo/Objects/InteractableHandle.h" />
+    <ClInclude Include="Demo/Objects/ObjEarthingIndicator.h" />
+    <ClInclude Include="Demo/Objects/ObjGlove.h" />
+    <ClInclude Include="Demo/Objects/ObjMouseMovable.h" />
+    <ClInclude Include="CreateTrajectory.h" />
+    <ClInclude Include="GetPixelCoordinate.h" />
+    <ClInclude Include="Orientation.h" />
+    <ClInclude Include="Projection.h" />
+    <ClInclude Include="Rotate.h" />
+    <ClInclude Include="ScreenshotMaker.h" />
+    <ClInclude Include="Structures.h" />
+    <ClInclude Include="GetNoisy.h" />
+    <ClInclude Include="CalculateOverlap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Telemetry">
+      <UniqueIdentifier>{68f10f7d-527d-42f2-b6de-ee3193c91630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{e70c9e57-cbb3-4d70-9f91-b2fd868495a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Components">
+      <UniqueIdentifier>{44ed1cfb-bca7-40ee-958c-fdeb43f51fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Components\Objects">
+      <UniqueIdentifier>{b5d38f75-255f-4e7b-8781-6da8e0dc302f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Components\Players">
+      <UniqueIdentifier>{de956aeb-2e1f-4fc5-83df-f317cffd647a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo">
+      <UniqueIdentifier>{dbdfa322-a7ae-42ea-9c6f-37bdb94bd28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Objects">
+      <UniqueIdentifier>{3d782247-25f6-4f42-bbd1-98a8dfd194ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Logic">
+      <UniqueIdentifier>{e9e0ebee-caa3-4e48-b44a-d394fd4910ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Inventory">
+      <UniqueIdentifier>{d31c786b-2b5f-40e0-9989-b2407bdb0af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicComponents">
+      <UniqueIdentifier>{ac25d606-77e8-4adf-a29e-88b0af220e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicComponents\Accidents">
+      <UniqueIdentifier>{e3fabe30-be9e-47d7-b7a3-31a897bfd8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicComponents\Interactable">
+      <UniqueIdentifier>{68b2a60a-2d50-4cc5-a50c-1db2a29df643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicComponents\Missions">
+      <UniqueIdentifier>{ce495e86-9d47-4fa1-8b5b-0da6c8861545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicComponents\Observers">
+      <UniqueIdentifier>{801435aa-49d8-4f13-a6af-c86741e5765f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicComponents\Tasks">
+      <UniqueIdentifier>{5d6a6d1c-6da5-4644-85de-b98eb1aecc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicComponents\Timers">
+      <UniqueIdentifier>{12eee706-2b6e-4a3a-a371-2c66a7ee2f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicComponents\Observers\Animations">
+      <UniqueIdentifier>{e7b4dad5-400e-49b5-9215-332324c6c9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicComponents\Observers\Sounds">
+      <UniqueIdentifier>{ec5356d0-4408-4ed3-8f38-6babbd6f89f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicComponents\Observers\Switches">
+      <UniqueIdentifier>{4247c631-2f01-4bdc-94bb-e02fc77ae742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScreenshotMaker">
+      <UniqueIdentifier>{0a1001fc-bf09-4fea-9351-c7b26689b6a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
